@@ -115,7 +115,7 @@ export default function Header() {
                 <Box
                   component="img"
                   src="https://dummyimage.com/80x80/000/fff.png&text=AID"
-                  alt="All India Destination"
+                  alt="All India Destination Logo"
                   sx={{ width: 28, height: 28, borderRadius: 1 }}
                 />
               </Box>
