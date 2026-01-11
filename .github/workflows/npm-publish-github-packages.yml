@@ -46,9 +46,9 @@ jobs:
             export NEXTAUTH_SECRET=${{ secrets.NEXTAUTH_SECRET }}
 
             # Build Next.js project
-            npm i
+            #npm i
             npm run build
 
             # Restart app with PM2
-            pm2 restart all
+            #pm2 restart all
             #pm2 restart allid-user || pm2 start npm --name "allid-user" -- start -- --port 3002
