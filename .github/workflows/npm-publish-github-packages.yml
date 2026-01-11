@@ -46,6 +46,7 @@ jobs:
             export NEXTAUTH_SECRET=${{ secrets.NEXTAUTH_SECRET }}
 
             # Build Next.js project
+            npm i
             npm run build
 
             # Restart app with PM2
