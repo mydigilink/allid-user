@@ -44,7 +44,7 @@ const SectionTitle = ({ title, subtitle }) => {
         sx={{
           fontSize: { xs: 28, sm: 35, md: 45 },
           fontWeight: 600,
-          letterSpacing: "-0.02em",
+          letterSpacing: "-0.01em",
           color: "#0F172A",
           lineHeight: 1.08,
         }}
